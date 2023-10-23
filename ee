@@ -1,49 +1,32 @@
 /**
- * @name e
- * @author DevilBro
- * @version 1.0.5
- * @description Allows you to use a background image without greatly altering the basic look of Discord.
- * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
- * @invite Jx3TjNS
- * @donate https://www.paypal.me/MircoWittrien
- * @patreon https://www.patreon.com/MircoWittrien
- * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
- * @authorId 278543574059057154
- * @BDEditor BasicBackground
+ * @name 3333
+ * @version 8.0
+ * @description A simple but highly customizable theme, now sugar free!
+ * @author Spectra
+ * @invite PZdnCVD
+ * @source https://github.com/xcruxiex/themes
+ * @website https://betterdiscord.app/theme/Neutron
+ * @BDEditor Neutron
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@100;300;400;500;700&display=swap');
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@100;300;400;500;700&display=swap');
+@import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
 
 :root {
-  --background: url('https://i.imgur.com/Lz0DcRI.jpg');
-  --backgroundsize: cover;
-  --backgroundposition: center;
-  --backgroundblur: 0px;
-  --popout: url('https://i.imgur.com/q4BAGor.jpg');
-  --popoutsize: var(--backgroundsize);
-  --backgroundposition: center;
-  --popoutblur: 0px;
-  --transparencycolor: 0,0,0;
-  --accentcolor: 190,78,180;
-  --backdrop: rgba(0,0,0,0.85);
-  --textshadow: transparent;
-  --transparencyalpha: 0;
-  --messagetransparency: 1;
-  --guildchanneltransparency: 0.56;
-  --chatinputtransparency: 0;
-  --memberlisttransparency: 0;
-  --font: Pacifico;
-  --textbrightest: 169,0,0;
-  --textbrighter: 255,0,0;
-  --textbright: 255,0,0;
-  --textdark: 255,0,0;
-  --textdarker: 0,0,0;
-  --textdarkest: 255,0,0;
-  --settingsicons: 1;
-  --backdropsize: var(--background-size);
-  --backdropblur: 0px;
-  --version1_0_5: none;
+  --backgroundImage: url('https://i.imgur.com/9iJZcWE.jpg');
+  --backgroundColor: #000000;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 0px;
+  --backgroundOpacity: 0.65;
+  --homeImage: url('https://i.imgur.com/xWqYf5Y.jpg');
+  --homeImageSize: cover;
+  --themeColor1: #000000;
+  --themeColor2: #000000;
+  --customFont: Concert One;
+  --backgroundCode: rgb(231,172,192,1);
+  --backgroundName: rgba(0 0 0 /.5);
 }
 
 /* Any custom CSS below here */
